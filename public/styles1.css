@@ -1,0 +1,50 @@
+.heading {
+  font-size: 18px;
+  background: #FB4F14;
+}
+
+.bold {
+  font
+}
+
+body {
+  padding-left: 4em;
+  padding-right: 4em;
+  font-family: Verdana;
+}
+
+.light_grey {
+  color: #c2c2c2;
+  font-size: 10px;
+  margin-bottom: ;
+  }
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.firebase {
+  font-size: 14px;
+  color: darkgrey;
+}
+
+.login {
+  float: right;
+}
+
+.main_content {
+background-color: rgb(246, 246, 239);
+margin-top: 0;
+font-size: 14px;
+}
+
+
+ol {
+  margin-top: 0;
+  padding-top: 10px
+}
+
+.error {
+  color: red;
+}

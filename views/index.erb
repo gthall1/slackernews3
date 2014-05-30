@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Slacker News</title>
+
+    <link rel="stylesheet" href="styles1.css">
+  </head>
+  <body>
+    <div class="heading">
+      <strong>Hacker News</strong> new | comments | ask | jobs | submit <span class="login">Login</span>
+    </div>
+    <div class="main_content">
+      <ol>
+          <% @articles.each do |news_item| %>
+          <li>
+            <a href="http://<%= news_item["url"] %>" target="_blank"> <%= "#{news_item["title"]}" %></a>
+            <span class="light_grey">(<%= "#{news_item["url"]}" %>)
+            <br>
+            <%= "#{news_item["description"]}" %></span>
+          </li>
+          <br>
+          <% end %>
+      </ol>
+    <h3> <a href="/comment"> Post a new story</a></h3>
+   </div>
+  </body>
+</html>
